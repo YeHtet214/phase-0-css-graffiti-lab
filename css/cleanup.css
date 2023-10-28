@@ -1,1 +1,24 @@
 /* write your override styles here */
+body {
+    position: relative;
+}
+
+#wall {
+    position: absolute;
+    max-width: 500px;
+    top: 150px;
+    left: 300px;
+}
+
+.parent {
+    background-color: #000;
+    border: 3px solid white;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 3rem;
+}
+
+.tag-6 {
+    float: left;
+}
+
